@@ -64,7 +64,7 @@ public class PersonAvatar {
 			File[] files = parentFile.listFiles();
 			//遍历删除文件
 			for(File delFile : files){
-				delFile.delete();
+				delFile.delete();sss
 			}
 			state = parentFile.delete();
 		}
