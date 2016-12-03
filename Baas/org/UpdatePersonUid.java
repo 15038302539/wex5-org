@@ -20,7 +20,7 @@ public class UpdatePersonUid {
 		int uid =Integer.parseInt(params.getString("uid") == null ? "0" : params.getString("uid").toString()); ;
 		System.out.print(uid);
 		String sql = "update sa_opperson set sNumb=" + uid + " where sID= '"+pid+"'" ;
-		stmt = conn.createStatement();
+		stmt = conn.createStatement();ss
 		int i = stmt.executeUpdate(sql);
 		System.out.print(i);
 		if(i>0){
