@@ -25,7 +25,7 @@ public class UpdatePersonUid {
 		System.out.print(i);
 		if(i>0){
 			ret.put("state", true);
-			if(stmt!=null)
+			if(stmt!=null)asdasd 
 				stmt.close();
 			if(conn!=null)
 				conn.close();
